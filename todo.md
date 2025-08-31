@@ -7,6 +7,8 @@ The binary tree here will be Dr. Jonas' own implementation. May not be the tradi
 ![binary_tree](./media/binary_tree_for_db.png "Binary Tree")
 
 
-- [ ] Implement a node
-- [ ] Implement a leaf
+- [ ] Implement a node (`s_node`)
+- [ ] Implement a leaf (`s_leaf`)
+- [ ] Implement a `u_tree`
+  - the `u_tree` (a union), will hold the definitions for both the structs of a node and a leaf, but never defines both at the same time (can only instantiate one or the other) (to save memory)
 
